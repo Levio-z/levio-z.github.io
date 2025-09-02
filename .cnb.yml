@@ -1,0 +1,9 @@
+$:
+  vscode:
+    - docker:
+        image: docker.cnb.cool/looc/default-dev-env:latest
+      runner:
+        tags: cnb:arch:amd64:gpu:L20
+      services:
+        - vscode
+        - docker
